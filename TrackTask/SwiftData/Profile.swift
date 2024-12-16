@@ -9,6 +9,8 @@ import Foundation
 import SwiftUI
 import SwiftData
 
+//Testing
+
 @Model
 class Profile {
     @Attribute(.unique) var id: UUID = UUID()

@@ -56,7 +56,7 @@ struct AvatarSelectionView:View {
     }
 }
 
-
+//Changes testing
 struct AddProfileView:View {
     @EnvironmentObject var profileVM: ProfileViewModel
     @State var isAvatarPickerShown: Bool = false

@@ -15,5 +15,7 @@
         <string>Lato-Thin.ttf</string>
         <string>Lato-ThinItalic.ttf</string>
     </array>
+    <key>UIUserInterfaceStyle</key>
+    <string>Dark</string>
 </dict>
 </plist>

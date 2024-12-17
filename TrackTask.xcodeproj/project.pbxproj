@@ -6,30 +6,77 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EE42757C2D11D155003C7E72 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4275522D11D155003C7E72 /* Lato-Black.ttf */; };
+		EE42757D2D11D155003C7E72 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4275532D11D155003C7E72 /* Lato-BlackItalic.ttf */; };
+		EE42757E2D11D155003C7E72 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4275542D11D155003C7E72 /* Lato-Bold.ttf */; };
+		EE42757F2D11D155003C7E72 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4275552D11D155003C7E72 /* Lato-BoldItalic.ttf */; };
+		EE4275802D11D155003C7E72 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4275562D11D155003C7E72 /* Lato-Italic.ttf */; };
+		EE4275812D11D155003C7E72 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4275572D11D155003C7E72 /* Lato-Light.ttf */; };
+		EE4275822D11D155003C7E72 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4275582D11D155003C7E72 /* Lato-LightItalic.ttf */; };
+		EE4275832D11D155003C7E72 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4275592D11D155003C7E72 /* Lato-Regular.ttf */; };
+		EE4275842D11D155003C7E72 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE42755A2D11D155003C7E72 /* Lato-Thin.ttf */; };
+		EE4275852D11D155003C7E72 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE42755B2D11D155003C7E72 /* Lato-ThinItalic.ttf */; };
+		EE4275862D11D155003C7E72 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE42755C2D11D155003C7E72 /* OFL.txt */; };
+		EE4275872D11D155003C7E72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE42755F2D11D155003C7E72 /* Preview Assets.xcassets */; };
+		EE4275882D11D155003C7E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4275772D11D155003C7E72 /* Assets.xcassets */; };
+		EE42758A2D11D155003C7E72 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275502D11D155003C7E72 /* extensions.swift */; };
+		EE42758B2D11D155003C7E72 /* CustomToastModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275612D11D155003C7E72 /* CustomToastModifier.swift */; };
+		EE42758C2D11D155003C7E72 /* CustomToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275622D11D155003C7E72 /* CustomToastView.swift */; };
+		EE42758D2D11D155003C7E72 /* ToastEnumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275632D11D155003C7E72 /* ToastEnumModel.swift */; };
+		EE42758E2D11D155003C7E72 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275662D11D155003C7E72 /* Profile.swift */; };
+		EE42758F2D11D155003C7E72 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275672D11D155003C7E72 /* ProfileViewModel.swift */; };
+		EE4275902D11D155003C7E72 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275682D11D155003C7E72 /* ToDo.swift */; };
+		EE4275912D11D155003C7E72 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275692D11D155003C7E72 /* TodoViewModel.swift */; };
+		EE4275922D11D155003C7E72 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42756B2D11D155003C7E72 /* AvatarView.swift */; };
+		EE4275932D11D155003C7E72 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42756D2D11D155003C7E72 /* SearchBarView.swift */; };
+		EE4275942D11D155003C7E72 /* SegmentControlBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42756F2D11D155003C7E72 /* SegmentControlBar.swift */; };
+		EE4275952D11D155003C7E72 /* AddTaskSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275712D11D155003C7E72 /* AddTaskSheetView.swift */; };
+		EE4275962D11D155003C7E72 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275722D11D155003C7E72 /* HomeView.swift */; };
+		EE4275972D11D155003C7E72 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275732D11D155003C7E72 /* ProfileView.swift */; };
+		EE4275982D11D155003C7E72 /* TabbarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275742D11D155003C7E72 /* TabbarScreen.swift */; };
+		EE4275992D11D155003C7E72 /* TodoTaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275752D11D155003C7E72 /* TodoTaskCardView.swift */; };
+		EE42759A2D11D155003C7E72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4275782D11D155003C7E72 /* ContentView.swift */; };
+		EE42759B2D11D155003C7E72 /* TrackTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42757A2D11D155003C7E72 /* TrackTaskApp.swift */; };
+		EE42759E2D11D1BE003C7E72 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42759D2D11D1BD003C7E72 /* SplashScreenView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		EE4275502D11D155003C7E72 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		EE4275522D11D155003C7E72 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		EE4275532D11D155003C7E72 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EE4275542D11D155003C7E72 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		EE4275552D11D155003C7E72 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EE4275562D11D155003C7E72 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		EE4275572D11D155003C7E72 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		EE4275582D11D155003C7E72 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		EE4275592D11D155003C7E72 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		EE42755A2D11D155003C7E72 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		EE42755B2D11D155003C7E72 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		EE42755C2D11D155003C7E72 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		EE42755F2D11D155003C7E72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE4275612D11D155003C7E72 /* CustomToastModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToastModifier.swift; sourceTree = "<group>"; };
+		EE4275622D11D155003C7E72 /* CustomToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToastView.swift; sourceTree = "<group>"; };
+		EE4275632D11D155003C7E72 /* ToastEnumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastEnumModel.swift; sourceTree = "<group>"; };
+		EE4275662D11D155003C7E72 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		EE4275672D11D155003C7E72 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		EE4275682D11D155003C7E72 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		EE4275692D11D155003C7E72 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		EE42756B2D11D155003C7E72 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		EE42756D2D11D155003C7E72 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		EE42756F2D11D155003C7E72 /* SegmentControlBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlBar.swift; sourceTree = "<group>"; };
+		EE4275712D11D155003C7E72 /* AddTaskSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskSheetView.swift; sourceTree = "<group>"; };
+		EE4275722D11D155003C7E72 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EE4275732D11D155003C7E72 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EE4275742D11D155003C7E72 /* TabbarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarScreen.swift; sourceTree = "<group>"; };
+		EE4275752D11D155003C7E72 /* TodoTaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTaskCardView.swift; sourceTree = "<group>"; };
+		EE4275772D11D155003C7E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4275782D11D155003C7E72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE4275792D11D155003C7E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE42757A2D11D155003C7E72 /* TrackTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTaskApp.swift; sourceTree = "<group>"; };
+		EE42759D2D11D1BD003C7E72 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		EEFD85262D047BA6002C7362 /* TrackTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EEFD855A2D049AE8002C7362 /* Exceptions for "TrackTask" folder in "TrackTask" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = EEFD85252D047BA6002C7362 /* TrackTask */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EEFD85282D047BA6002C7362 /* TrackTask */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EEFD855A2D049AE8002C7362 /* Exceptions for "TrackTask" folder in "TrackTask" target */,
-			);
-			path = TrackTask;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EEFD85232D047BA6002C7362 /* Frameworks */ = {
@@ -42,10 +89,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE4275512D11D155003C7E72 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EE4275502D11D155003C7E72 /* extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EE42755D2D11D155003C7E72 /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				EE4275522D11D155003C7E72 /* Lato-Black.ttf */,
+				EE4275532D11D155003C7E72 /* Lato-BlackItalic.ttf */,
+				EE4275542D11D155003C7E72 /* Lato-Bold.ttf */,
+				EE4275552D11D155003C7E72 /* Lato-BoldItalic.ttf */,
+				EE4275562D11D155003C7E72 /* Lato-Italic.ttf */,
+				EE4275572D11D155003C7E72 /* Lato-Light.ttf */,
+				EE4275582D11D155003C7E72 /* Lato-LightItalic.ttf */,
+				EE4275592D11D155003C7E72 /* Lato-Regular.ttf */,
+				EE42755A2D11D155003C7E72 /* Lato-Thin.ttf */,
+				EE42755B2D11D155003C7E72 /* Lato-ThinItalic.ttf */,
+				EE42755C2D11D155003C7E72 /* OFL.txt */,
+			);
+			path = Lato;
+			sourceTree = "<group>";
+		};
+		EE42755E2D11D155003C7E72 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EE42755D2D11D155003C7E72 /* Lato */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		EE4275602D11D155003C7E72 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE42755F2D11D155003C7E72 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE4275642D11D155003C7E72 /* CustomToastView */ = {
+			isa = PBXGroup;
+			children = (
+				EE4275612D11D155003C7E72 /* CustomToastModifier.swift */,
+				EE4275622D11D155003C7E72 /* CustomToastView.swift */,
+				EE4275632D11D155003C7E72 /* ToastEnumModel.swift */,
+			);
+			path = CustomToastView;
+			sourceTree = "<group>";
+		};
+		EE4275652D11D155003C7E72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE4275642D11D155003C7E72 /* CustomToastView */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EE42756A2D11D155003C7E72 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				EE4275662D11D155003C7E72 /* Profile.swift */,
+				EE4275672D11D155003C7E72 /* ProfileViewModel.swift */,
+				EE4275682D11D155003C7E72 /* ToDo.swift */,
+				EE4275692D11D155003C7E72 /* TodoViewModel.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		EE42756C2D11D155003C7E72 /* AvatarView */ = {
+			isa = PBXGroup;
+			children = (
+				EE42756B2D11D155003C7E72 /* AvatarView.swift */,
+			);
+			path = AvatarView;
+			sourceTree = "<group>";
+		};
+		EE42756E2D11D155003C7E72 /* SearchBarView */ = {
+			isa = PBXGroup;
+			children = (
+				EE42756D2D11D155003C7E72 /* SearchBarView.swift */,
+			);
+			path = SearchBarView;
+			sourceTree = "<group>";
+		};
+		EE4275702D11D155003C7E72 /* SegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				EE42756F2D11D155003C7E72 /* SegmentControlBar.swift */,
+			);
+			path = SegmentControl;
+			sourceTree = "<group>";
+		};
+		EE4275762D11D155003C7E72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE42756C2D11D155003C7E72 /* AvatarView */,
+				EE42756E2D11D155003C7E72 /* SearchBarView */,
+				EE4275702D11D155003C7E72 /* SegmentControl */,
+				EE4275712D11D155003C7E72 /* AddTaskSheetView.swift */,
+				EE4275722D11D155003C7E72 /* HomeView.swift */,
+				EE4275732D11D155003C7E72 /* ProfileView.swift */,
+				EE4275742D11D155003C7E72 /* TabbarScreen.swift */,
+				EE4275752D11D155003C7E72 /* TodoTaskCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE42757B2D11D155003C7E72 /* TrackTask */ = {
+			isa = PBXGroup;
+			children = (
+				EE42759C2D11D184003C7E72 /* UserSetupView */,
+				EE4275512D11D155003C7E72 /* Extension */,
+				EE42755E2D11D155003C7E72 /* Font */,
+				EE4275602D11D155003C7E72 /* Preview Content */,
+				EE4275652D11D155003C7E72 /* Resources */,
+				EE42756A2D11D155003C7E72 /* SwiftData */,
+				EE4275762D11D155003C7E72 /* View */,
+				EE4275772D11D155003C7E72 /* Assets.xcassets */,
+				EE4275782D11D155003C7E72 /* ContentView.swift */,
+				EE4275792D11D155003C7E72 /* Info.plist */,
+				EE42757A2D11D155003C7E72 /* TrackTaskApp.swift */,
+			);
+			path = TrackTask;
+			sourceTree = "<group>";
+		};
+		EE42759C2D11D184003C7E72 /* UserSetupView */ = {
+			isa = PBXGroup;
+			children = (
+				EE42759D2D11D1BD003C7E72 /* SplashScreenView.swift */,
+			);
+			path = UserSetupView;
+			sourceTree = "<group>";
+		};
 		EEFD851D2D047BA6002C7362 = {
 			isa = PBXGroup;
 			children = (
-				EEFD85282D047BA6002C7362 /* TrackTask */,
+				EE42757B2D11D155003C7E72 /* TrackTask */,
 				EEFD85272D047BA6002C7362 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,9 +255,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EEFD85282D047BA6002C7362 /* TrackTask */,
 			);
 			name = TrackTask;
 			packageProductDependencies = (
@@ -122,6 +302,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE42757C2D11D155003C7E72 /* Lato-Black.ttf in Resources */,
+				EE42757D2D11D155003C7E72 /* Lato-BlackItalic.ttf in Resources */,
+				EE42757E2D11D155003C7E72 /* Lato-Bold.ttf in Resources */,
+				EE42757F2D11D155003C7E72 /* Lato-BoldItalic.ttf in Resources */,
+				EE4275802D11D155003C7E72 /* Lato-Italic.ttf in Resources */,
+				EE4275812D11D155003C7E72 /* Lato-Light.ttf in Resources */,
+				EE4275822D11D155003C7E72 /* Lato-LightItalic.ttf in Resources */,
+				EE4275832D11D155003C7E72 /* Lato-Regular.ttf in Resources */,
+				EE4275842D11D155003C7E72 /* Lato-Thin.ttf in Resources */,
+				EE4275852D11D155003C7E72 /* Lato-ThinItalic.ttf in Resources */,
+				EE4275862D11D155003C7E72 /* OFL.txt in Resources */,
+				EE4275872D11D155003C7E72 /* Preview Assets.xcassets in Resources */,
+				EE4275882D11D155003C7E72 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +325,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE42758A2D11D155003C7E72 /* extensions.swift in Sources */,
+				EE42758B2D11D155003C7E72 /* CustomToastModifier.swift in Sources */,
+				EE42758C2D11D155003C7E72 /* CustomToastView.swift in Sources */,
+				EE42758D2D11D155003C7E72 /* ToastEnumModel.swift in Sources */,
+				EE42758E2D11D155003C7E72 /* Profile.swift in Sources */,
+				EE42758F2D11D155003C7E72 /* ProfileViewModel.swift in Sources */,
+				EE4275902D11D155003C7E72 /* ToDo.swift in Sources */,
+				EE4275912D11D155003C7E72 /* TodoViewModel.swift in Sources */,
+				EE4275922D11D155003C7E72 /* AvatarView.swift in Sources */,
+				EE4275932D11D155003C7E72 /* SearchBarView.swift in Sources */,
+				EE4275942D11D155003C7E72 /* SegmentControlBar.swift in Sources */,
+				EE42759E2D11D1BE003C7E72 /* SplashScreenView.swift in Sources */,
+				EE4275952D11D155003C7E72 /* AddTaskSheetView.swift in Sources */,
+				EE4275962D11D155003C7E72 /* HomeView.swift in Sources */,
+				EE4275972D11D155003C7E72 /* ProfileView.swift in Sources */,
+				EE4275982D11D155003C7E72 /* TabbarScreen.swift in Sources */,
+				EE4275992D11D155003C7E72 /* TodoTaskCardView.swift in Sources */,
+				EE42759A2D11D155003C7E72 /* ContentView.swift in Sources */,
+				EE42759B2D11D155003C7E72 /* TrackTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

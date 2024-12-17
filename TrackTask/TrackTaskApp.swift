@@ -12,7 +12,7 @@ struct TrackTaskApp: App {
     @StateObject private var viewRouter = ViewRouter()
     var body: some Scene {
         WindowGroup {
-            ContentView().modelContainer(for: [Todo.self,Profile.self])
+            SplashScreenView().modelContainer(for: [Todo.self,Profile.self])
                 .environmentObject(viewRouter)
         }
     }
